@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+}
+
+/* Jika ada 2 selector atau lebih yang menggunakan property dan value yang sama, maka selector tsb bisa digabungkan */
+h1, h2 {
+    color: blue;
+}
+
+h2 {
+    font-style: italic;
+}
+
+/* CSS, beri warna merah pada selector "a", yang ada di dalam selector "li", yang selector "li"nya berada di dalam selector "ol */ 
+ol li a {
+    color: red;
+}
+
+/* Sebaiknya, gunakan elemen HTML dahulu, jika tidak bisa baru gunakan class, dan jika tidak bisa baru gunakan id 
+Ilustrasi: Menggunakan elemen HTML bebannya 1, menggunakan class bebannya 10, menggunakan id bebannya 100 */
+.paragraf-1 {
+    color: rebeccapurple;
+}
+
+#paragraf_2 {
+    color: blue;
+}
+
+.hurufBesar {
+    font-weight: bold;
+}
+
+/* CSS, besarkan huruf di semua selector paragraf yang memiliki class hurufBesar */
+p.hurufBesar {
+    font-size: 25px;
+}

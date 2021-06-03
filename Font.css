@@ -1,0 +1,13 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif; /* Font setelah arial adalah fallback */
+    font-size: large;
+    font-variant: small-caps; /*Menjadikan semua hurufnya besar, tapi awal kata hurufnya lebih besar dari huruf lainnya*/
+    font-style: italic; /*Memiringkan font*/
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Jika nama fontnya ada spasi, maka gunakan tanda kutip pada nama font tsb */
+
+    line-height: 30px;
+    font-style: oblique; /*oblique artinya adalah memaksa OS utk memiringkan fontnya, jika di folder fontnya belum ada yang versi italic/miring*/ 
+}
