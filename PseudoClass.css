@@ -1,0 +1,36 @@
+.hello {
+    font-size: 30px;
+}
+
+.hello:hover {
+    color: green;
+}
+
+/* CSS ketika linknya diklik */
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    color: red;
+}
+
+/* CSS, beri warna hijau pada elemen "a" yang ada di dalam elemen "li", yang merupakan anak (child) pertama */
+li:first-child a {
+    color: green;
+}
+
+/* CSS, ubah ukuran font pada elemen "a" yang ada di dalam elemen "li", yang merupakan anak (child) terakhir */
+li:last-child a {
+    font-size: 30px;
+}
+
+/* CSS, beri warna oren pada elemen "a" pada baris ke (3) yang ada di dalam elemen "li", yang merupakan anak (child) terakhir */
+li:nth-child(4) a {
+    color: orange;
+}
+
+/* CSS, beri warna pada elemen "a" pada setiap baris yang (ganjil) yang ada di dalam elemen "li", yang merupakan anak (child) terakhir */
+li:nth-child(odd) a {
+    color: orangered;
+}
