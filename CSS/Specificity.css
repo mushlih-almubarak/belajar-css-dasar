@@ -1,6 +1,9 @@
 /* Setiap selector CSS memiliki berat/prioritas yang berbeda, tergantung elemen apa yang dipilih.
 Urutan prioritas (dari atas ke bawah):
-
+1. Inline
+2. Id
+3. Class
+4. Element
 Kalkulator penghitungan berat/prioritas: https: //specificity.keegan.st/
 */
 
