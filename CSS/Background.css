@@ -1,0 +1,14 @@
+body {
+    background-color: aqua;
+    background-image: url(img/bg1.jpg);
+    background-repeat: repeat-x; /*Agar gambarnya selalu ditampilkan secara berulang ke kanan */
+    background-repeat: repeat-y; /*Agar gambarnya selalu ditampilkan secara berulang ke bawah */
+    background-repeat: no-repeat; /*Agar gambarnya tidak ditampilkan secara berlulang */
+    background-position: center; /* Mengatur posisi utk backgroundnya */
+    background-size: cover; /*Mengatur agar ukurannya cover */
+    background-attachment: fixed; /* Mengatur agar ukurannya pas */
+}
+
+h1 {
+    color: white;
+}

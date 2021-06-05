@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Berikan warna biru pada seluruh huruf yang ada pada tag body */
+        body {
+            color: blue;
+        }
+
+        a {
+            color: inherit;
+            font-size: 100px;
+        }
+    </style>
+    <title>Belajar Membuat Pewarisan Property dan Value Pada CSS</title>
+</head>
+
+<body>
+    <!--Semua huruf yang ada di body (di bawah ini), akan berubah menjadi warna biru karena dirubah oleh CSS diatas.
+        Meskipun CSSnya menggunakan selektor "body", yang di rubah adalah semua tag di dalam bodynya, dan ini yang dimaksud dengan pewarisan di CSS
+        Pewarisan ini tidak berfungsi di semua tag-->
+    <h1>Hello World!</h1>
+    <!--Warna tag "a" dibawah ini tidak menjadi warna biru meskipun di dalam "body", karena tag ini tidak mendukung pewarisan CSS
+    Agar ia berubah menjadi warna seperti yang ditulis di CSS "body", gunakan value "inherit"-->
+    <a href="#">Klik disini</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nobis expedita quae modi unde repellat
+        similique corporis veniam, consequatur tempora veritatis tenetur accusamus eaque fuga autem debitis ratione
+        suscipit excepturi?</p>
+</body>
+
+</html>

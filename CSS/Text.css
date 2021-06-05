@@ -1,0 +1,37 @@
+h1 {
+    color: aqua; /* Mengatur warna pada teks */
+    text-align: center; /* Mengatur agar teks menjadi di tengah */
+    text-decoration: underline; /* Garis bawah pada teks */
+    text-transform: uppercase; /* Mengkapitalkan seluruh huruf */ 
+}
+
+.isi-artikel {
+    letter-spacing: 5px; /* Mengatur jarak antar kalimat */
+    word-spacing: 2px; /* Mengatur jarak antar kata */
+    text-indent: 50px; /* Mengatur jarak sebelum paragraf dimulai*/
+    color: #008000;
+}
+
+h3 {
+    color: rgb(0, 255, 255)
+}
+
+.kesimpulan {
+    text-align: right;  /* Mengatur agar teks menjadi di kanan */
+}
+
+.isi-subjudul {
+    text-align: justify;  /* Mengatur agar teks menjadi rata kanan kiri */
+}
+
+#atas {
+   text-decoration: overline;  /* Mengatur agar teks bergaris atas */
+}
+
+#coret {
+    text-decoration: line-through;  /* Mengatur agar teks dicoret */
+}
+
+a {
+    text-decoration: none; /* Menghapus dekorasi/garis bawah pada link */
+}
