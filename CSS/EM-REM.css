@@ -1,0 +1,17 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    font-size: 10px;
+}
+
+/* Ukuran fontnya 2 kali lebih besar dari ukuran font yang diatur di parrentnya */
+h2.em {
+    font-size: 2em;
+}
+
+/* Ukuran fontnya 2 kali lebih besar dari ukuran font yang diatur di HTML/rootnya, dan bukan di parentnya */
+h2.rem {
+    font-size: 2rem;
+}
