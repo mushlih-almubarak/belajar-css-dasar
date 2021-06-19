@@ -1,0 +1,12 @@
+/* Variabel CSS harus disimpan di dalam root */
+:root {
+    --warna-teks: blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: var(--warna-teks);
+}
