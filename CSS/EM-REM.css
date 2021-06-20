@@ -12,6 +12,17 @@ h2.em {
 }
 
 /* Ukuran fontnya 2 kali lebih besar dari ukuran font yang diatur di HTML/rootnya, dan bukan di parentnya */
-h2.rem {
+h2 .rem {
     font-size: 2rem;
+}
+
+button {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    /* Ukurannya 2 dan 3 kali lebih besar dari ukuran font size yang ada pada elemen ini, kemudian elemen parentnya, dst. */
+    padding: 2em 3em;
 }
